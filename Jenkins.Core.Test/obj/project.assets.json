@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "NUnit/3.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "Jenkins.Core/0.8.4": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "compile": {
+          "bin/placeholder/Jenkins.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jenkins.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NUnit/3.11.0": {
+      "sha512": "BzGk+u02RCrysmLlSzD+okxzMQ8JRF4eFC/qijDJ8Y/FBdTrTkxkQyTFsYkG1o++pr7QpFAE4VDXDqIfZ/gBAg==",
+      "type": "package",
+      "path": "nunit/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net20/NUnit.System.Linq.dll",
+        "lib/net20/nunit.framework.dll",
+        "lib/net20/nunit.framework.pdb",
+        "lib/net20/nunit.framework.xml",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.4/nunit.framework.dll",
+        "lib/netstandard1.4/nunit.framework.pdb",
+        "lib/netstandard1.4/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.11.0.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "Jenkins.Core/0.8.4": {
+      "type": "project",
+      "path": "../Jenkins.Core/Jenkins.Core.csproj",
+      "msbuildProject": "../Jenkins.Core/Jenkins.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "Jenkins.Core >= 0.8.4",
+      "NUnit >= 3.11.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dm_ca\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\Jenkins.Core.Test\\Jenkins.Core.Test.csproj",
+      "projectName": "Jenkins.Core.Test",
+      "projectPath": "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\Jenkins.Core.Test\\Jenkins.Core.Test.csproj",
+      "packagesPath": "C:\\Users\\Dm_ca\\.nuget\\packages\\",
+      "outputPath": "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\Jenkins.Core.Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\.nuget\\NuGet.Config",
+        "C:\\Users\\Dm_ca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "http://127.0.0.1:10080/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {
+            "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\Jenkins.Core\\Jenkins.Core.csproj": {
+              "projectPath": "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\Jenkins.Core\\Jenkins.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          }
+        }
+      }
+    }
+  }
+}
