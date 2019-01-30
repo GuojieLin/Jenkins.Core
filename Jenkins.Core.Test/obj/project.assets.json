@@ -14,7 +14,7 @@
           "build/NUnit.props": {}
         }
       },
-      "Jenkins.Core/0.9.4": {
+      "Jenkins.Core/0.9.5": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.5",
         "compile": {
@@ -61,7 +61,7 @@
         "nunit.nuspec"
       ]
     },
-    "Jenkins.Core/0.9.4": {
+    "Jenkins.Core/0.9.5": {
       "type": "project",
       "path": "../Jenkins.Core/Jenkins.Core.csproj",
       "msbuildProject": "../Jenkins.Core/Jenkins.Core.csproj"
@@ -69,13 +69,12 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5": [
-      "Jenkins.Core >= 0.9.4",
+      "Jenkins.Core >= 0.9.5",
       "NUnit >= 3.11.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dm_ca\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Dm_ca\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -86,9 +85,6 @@
       "packagesPath": "C:\\Users\\Dm_ca\\.nuget\\packages\\",
       "outputPath": "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\Jenkins.Core.Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\.nuget\\NuGet.Config",
         "C:\\Users\\Dm_ca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,11 +105,6 @@
             }
           }
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {

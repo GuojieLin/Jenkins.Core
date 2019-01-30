@@ -8,11 +8,10 @@
     ".NETFramework,Version=v4.5": []
   },
   "packageFolders": {
-    "C:\\Users\\Dm_ca\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Dm_ca\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.9.4",
+    "version": "0.9.5",
     "restore": {
       "projectUniqueName": "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\Jenkins.Core\\Jenkins.Core.csproj",
       "projectName": "Jenkins.Core",
@@ -20,9 +19,6 @@
       "packagesPath": "C:\\Users\\Dm_ca\\.nuget\\packages\\",
       "outputPath": "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\Jenkins.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\.nuget\\NuGet.Config",
         "C:\\Users\\Dm_ca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,11 +35,6 @@
         "net45": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
