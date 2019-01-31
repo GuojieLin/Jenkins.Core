@@ -11,7 +11,7 @@
     "C:\\Users\\Dm_ca\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.9.6",
+    "version": "0.10.0",
     "restore": {
       "projectUniqueName": "F:\\Study\\Demo\\JenkinsTest\\Jenkins.Core\\Jenkins.Core\\Jenkins.Core.csproj",
       "projectName": "Jenkins.Core",
