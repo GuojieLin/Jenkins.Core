@@ -14,7 +14,7 @@
           "build/NUnit.props": {}
         }
       },
-      "Jenkins.Core/0.10.1": {
+      "Jenkins.Core/0.10.2": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.5",
         "compile": {
@@ -61,7 +61,7 @@
         "nunit.nuspec"
       ]
     },
-    "Jenkins.Core/0.10.1": {
+    "Jenkins.Core/0.10.2": {
       "type": "project",
       "path": "../Jenkins.Core/Jenkins.Core.csproj",
       "msbuildProject": "../Jenkins.Core/Jenkins.Core.csproj"
@@ -69,7 +69,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5": [
-      "Jenkins.Core >= 0.10.1",
+      "Jenkins.Core >= 0.10.2",
       "NUnit >= 3.11.0"
     ]
   },
